@@ -1,0 +1,39 @@
+
+.logo{
+  font-size: 26px;
+
+}
+nav a:hover {
+    border-bottom: 2px solid ;
+    /* padding: 6px 0;  */
+  }
+
+  .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.nav {
+    color: rgb(245, 244, 244);
+}
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,);
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+    border: 3px solid #fff;
+}
+
+.navbar-collapse .collapse .show{
+    background-color: blue;
+}
+
+
+@media (max-width: 576px) {
+    .nav {
+      background: rgb(34, 33, 33);
+      border-radius: 5px;
+    }
+  }
