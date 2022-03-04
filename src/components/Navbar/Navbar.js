@@ -31,26 +31,6 @@ function Navbar() {
     <div>
      
 
-{/* <nav id="navbar1" className="navbar navbar-expand-md   fixed-top">
-	<div className="container">
-    <span className="navbar-brand" style={{ color:"#fff"}}>Mherx</span>
-    <button className="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text">
-    <i className="fa fa-bars fa-1x"></i></span>
-    </button>
-    
-   <div className="collapse navbar-collapse " id="navbarSupportedContent1">
-     <ul className="nav navbar-nav ml-auto">
-	    <li className="nav-item"><a className="nav-link " id="active1" href="#Home" style={{ color:"#fff"}}>Home</a></li>
-	    <li className="nav-item"><a className="nav-link " id="active1" href="#Home" style={{ color:"#fff"}}>Section</a></li>
-	    <li className="nav-item"><a className="nav-link" id="active2" href="#Portfolio" style={{ color:"#fff"}}>About</a></li>
-	    <li className="nav-item"><a className="nav-link" id="active3" href="#Contact" style={{ color:"#fff"}}> Contact</a></li>
-	    <li className="nav-item"><a className="nav-link" id="active3" href="#Contact" style={{ color:"#fff"}}> Contact</a></li>
-
-    </ul>
-	</div>
-
-	</div>
-</nav> */}
 
 
 {/* <!-- Navbar --> */}
@@ -70,9 +50,9 @@ function Navbar() {
    <div class="collapse navbar-collapse " id="navbarSupportedContent1">
      <ul class="nav navbar-nav ml-auto">
 	    <li class="nav-item"><a class="nav-link" id="active1" href="#Home">Home</a></li>
-	    <li class="nav-item "><a class="nav-link" id="active2" href="#Portfolio">About</a></li>
-	    <li class="nav-item"><a class="nav-link" id="active3" href="#Contact">Service</a></li>
-	    <li class="nav-item"><a class="nav-link" id="active3" href="#Contact">Portfolio</a></li>
+	    <li class="nav-item "><a class="nav-link" id="active2" href="#about">About</a></li>
+	    <li class="nav-item"><a class="nav-link" id="active3" href="#Services">Service</a></li>
+	    <li class="nav-item"><a class="nav-link" id="active3" href="#testimonial">Portfolio</a></li>
 	    <li class="nav-item"><a class="nav-link" id="active3" href="#Contact">Login</a></li>
 	    <li class="nav-item"><a class="nav-link" id="active3" href="#Contact" onClick={handleOpen}>Registration</a></li>
 

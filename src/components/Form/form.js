@@ -5,20 +5,6 @@ import React from 'react'
 function Form() {
   return (
       <> 
-      {/* <Box
-      component="form"
-      sx={{
-        '& > :not(style)': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <TextField id="standard-basic" label="First Name" variant="standard" />
-      <TextField id="standard-basic" label="Last Name" variant="standard" />
-      <TextField id="standard-basic" label="Email" variant="standard" />
-      <TextField id="standard-basic" label="Mobile no" variant="standard" />
-      <TextField id="standard-basic" label="" variant="standard" />
-    </Box> */}
     <form class="row g-3">
     <div class="col-md-12">
     <label for="inputEmail4" class="form-label">First Name</label>
